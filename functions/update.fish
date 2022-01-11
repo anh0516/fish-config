@@ -13,6 +13,7 @@ function update
 	sudo tldr --update
 	sudo updatedb
 	echo
+	hblock
 	sudo checkservices
 end
 
