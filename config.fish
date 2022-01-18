@@ -9,11 +9,10 @@
 #    ...
 # end
 # To include configuration only for interactive shells, use
-# if status is-interactive
-#   ...
-# end
 
-stty speed 115200 > /dev/null
+if status is-interactive
+	stty speed 115200 > /dev/null
+end
 set -g theme_nerd_fonts yes
 set -g theme_display_user yes
 set -g theme_display_hostname no
