@@ -11,7 +11,7 @@
 # To include configuration only for interactive shells, use
 
 if status is-interactive
-	stty speed 115200 > /dev/null
+	stty speed 115200 2>&3 > /dev/null
 end
 set -g theme_nerd_fonts yes
 set -g theme_display_user yes
