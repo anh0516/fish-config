@@ -11,6 +11,7 @@ function update
 	sudo pkgfile -u
 	sudo mandb
 	sudo tldr --update
+	tldr --update
 	sudo updatedb
 	echo
 	hblock
